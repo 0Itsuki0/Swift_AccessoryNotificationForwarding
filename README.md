@@ -15,7 +15,7 @@ An App Example for sending push notification
 - PushNotificationApp
 
 
-For more details, please refer to [Swift/iOS: Receive iOS Notifications From Any App on Bluetooth Accessory]()
+For more details, please refer to [Swift/iOS: Receive iOS Notifications From Any App on Bluetooth Accessory](https://medium.com/@itsuki.enjoy/swift-ios-receive-ios-notifications-from-any-app-on-bluetooth-accessory-a4efa9d2aa39)
 
 Other relevant articles: 
 - [SwiftUI: Pair BLE Accessory in an Easy BUT Secure Way!](https://levelup.gitconnected.com/swiftui-pair-ble-accessory-in-an-easy-but-secure-way-a9e88b5e2f07)
