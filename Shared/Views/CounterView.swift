@@ -15,19 +15,18 @@ struct CounterView: View {
     
     var body: some View {
         VStack {
-            Text(CounterAccessory.name)
+            Text(BLEAccessory.name)
                 .font(.title2)
                 .fontWeight(.bold)
                 .frame(maxWidth: .infinity, alignment: .center)
 
-            
-            HStack(spacing: 24) {
+            HStack(spacing: 16) {
                 button(action: {
                     count = max(self.minimum, count - 1)
                 }, labelImage: "minus.square.fill")
 
                 Text("\(count)")
-                    .font(.system(size: 120))
+                    .font(.system(size: 100))
                     .fontWeight(.bold)
                     .contentTransition(.numericText())
                     .lineLimit(1)
@@ -54,9 +53,7 @@ struct CounterView: View {
                 .foregroundStyle(.secondary)
                 .font(.headline)
                 .frame(maxWidth: .infinity, alignment: .center)
-
         }
-        
     }
     
     @ViewBuilder

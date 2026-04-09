@@ -1,0 +1,1252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98F465F42F84A2B6001D5BCB /* AccessoryDataProvider.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = 98F465ED2F84A2B6001D5BCB /* AccessoryDataProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		98F466062F84C064001D5BCB /* AccessoryTransportSecurity.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = 98F465FF2F84C064001D5BCB /* AccessoryTransportSecurity.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		98F466402F84C2DE001D5BCB /* WiFiInfrastructure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E663D52F81FB5D00F02637 /* WiFiInfrastructure.framework */; };
+		98F4664A2F84C2DE001D5BCB /* AccessoryTransportAppExtension.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = 98F4663F2F84C2DD001D5BCB /* AccessoryTransportAppExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98F465F22F84A2B6001D5BCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 986FB4DE2EE91517007C0616 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98F465EC2F84A2B6001D5BCB;
+			remoteInfo = AccessoryDataProvider;
+		};
+		98F466042F84C064001D5BCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 986FB4DE2EE91517007C0616 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98F465FE2F84C064001D5BCB;
+			remoteInfo = AccessoryTransportSecurity;
+		};
+		98F466482F84C2DE001D5BCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 986FB4DE2EE91517007C0616 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98F4663E2F84C2DD001D5BCB;
+			remoteInfo = AccessoryTransportAppExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		98E663E12F81FB5D00F02637 /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+				98F466062F84C064001D5BCB /* AccessoryTransportSecurity.appex in Embed ExtensionKit Extensions */,
+				98F465F42F84A2B6001D5BCB /* AccessoryDataProvider.appex in Embed ExtensionKit Extensions */,
+				98F4664A2F84C2DE001D5BCB /* AccessoryTransportAppExtension.appex in Embed ExtensionKit Extensions */,
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F465E82F84A29E001D5BCB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		986FB4E62EE91517007C0616 /* AccessoryCompanionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessoryCompanionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		986FB4F82EE9152B007C0616 /* MyAccessory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAccessory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		986FB5EA2EEBEA35007C0616 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		987D08D32F873EB400C42207 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+		98E663D52F81FB5D00F02637 /* WiFiInfrastructure.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WiFiInfrastructure.framework; path = System/Library/Frameworks/WiFiInfrastructure.framework; sourceTree = SDKROOT; };
+		98F465ED2F84A2B6001D5BCB /* AccessoryDataProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = AccessoryDataProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F465FF2F84C064001D5BCB /* AccessoryTransportSecurity.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = AccessoryTransportSecurity.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F4663F2F84C2DD001D5BCB /* AccessoryTransportAppExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = AccessoryTransportAppExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F466FB2F8507D0001D5BCB /* PushNotificationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNotificationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		986FB53F2EEA705C007C0616 /* Exceptions for "Shared" folder in "MyAccessory" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Extensions/Int+Extensions.swift",
+				Models/ChunkDataStarter.swift,
+				Models/ChunkDataTerminator.swift,
+				Models/CounterAccessory.swift,
+				Models/NotificationEvent.swift,
+				Models/NotificationPayLoad.swift,
+				Models/ShareKeyEvent.swift,
+				Views/CounterView.swift,
+			);
+			target = 986FB4F72EE9152B007C0616 /* MyAccessory */;
+		};
+		986FB5C22EEBE90B007C0616 /* Exceptions for "AccessoryCompanionApp" folder in "AccessoryCompanionApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"AccessoryCompanionApp-Info.plist",
+			);
+			target = 986FB4E52EE91517007C0616 /* AccessoryCompanionApp */;
+		};
+		987D07F32F85EA1000C42207 /* Exceptions for "Shared" folder in "AccessoryTransportSecurity" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Extensions/Int+Extensions.swift",
+				Managers/BluetoothCentralManager.swift,
+				Managers/ExtensionMessagingManager.swift,
+				Models/ChunkDataStarter.swift,
+				Models/ChunkDataTerminator.swift,
+				Models/CounterAccessory.swift,
+				Models/NotificationEvent.swift,
+				Models/NotificationPayLoad.swift,
+				Models/ShareKeyEvent.swift,
+			);
+			target = 98F465FE2F84C064001D5BCB /* AccessoryTransportSecurity */;
+		};
+		987D080E2F862C9100C42207 /* Exceptions for "Shared" folder in "AccessoryDataProvider" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/NotificationEvent.swift,
+				Models/NotificationPayLoad.swift,
+			);
+			target = 98F465EC2F84A2B6001D5BCB /* AccessoryDataProvider */;
+		};
+		98F465F82F84A2B6001D5BCB /* Exceptions for "AccessoryDataProvider" folder in "AccessoryDataProvider" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 98F465EC2F84A2B6001D5BCB /* AccessoryDataProvider */;
+		};
+		98F4660A2F84C064001D5BCB /* Exceptions for "AccessoryTransportSecurity" folder in "AccessoryTransportSecurity" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 98F465FE2F84C064001D5BCB /* AccessoryTransportSecurity */;
+		};
+		98F4664E2F84C2DE001D5BCB /* Exceptions for "AccessoryTransportAppExtension" folder in "AccessoryTransportAppExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 98F4663E2F84C2DD001D5BCB /* AccessoryTransportAppExtension */;
+		};
+		98F466902F84CEF5001D5BCB /* Exceptions for "Shared" folder in "AccessoryTransportAppExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Extensions/Int+Extensions.swift",
+				Managers/BluetoothCentralManager.swift,
+				Managers/ExtensionMessagingManager.swift,
+				Models/ChunkDataStarter.swift,
+				Models/ChunkDataTerminator.swift,
+				Models/CounterAccessory.swift,
+				Models/NotificationEvent.swift,
+				Models/NotificationPayLoad.swift,
+				Models/ShareKeyEvent.swift,
+			);
+			target = 98F4663E2F84C2DD001D5BCB /* AccessoryTransportAppExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		986FB4E82EE91517007C0616 /* AccessoryCompanionApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				986FB5C22EEBE90B007C0616 /* Exceptions for "AccessoryCompanionApp" folder in "AccessoryCompanionApp" target */,
+			);
+			path = AccessoryCompanionApp;
+			sourceTree = "<group>";
+		};
+		986FB4F92EE9152B007C0616 /* MyAccessory */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyAccessory;
+			sourceTree = "<group>";
+		};
+		986FB5382EEA7038007C0616 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				986FB53F2EEA705C007C0616 /* Exceptions for "Shared" folder in "MyAccessory" target */,
+				987D080E2F862C9100C42207 /* Exceptions for "Shared" folder in "AccessoryDataProvider" target */,
+				987D07F32F85EA1000C42207 /* Exceptions for "Shared" folder in "AccessoryTransportSecurity" target */,
+				98F466902F84CEF5001D5BCB /* Exceptions for "Shared" folder in "AccessoryTransportAppExtension" target */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		98F465EE2F84A2B6001D5BCB /* AccessoryDataProvider */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				98F465F82F84A2B6001D5BCB /* Exceptions for "AccessoryDataProvider" folder in "AccessoryDataProvider" target */,
+			);
+			path = AccessoryDataProvider;
+			sourceTree = "<group>";
+		};
+		98F466002F84C064001D5BCB /* AccessoryTransportSecurity */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				98F4660A2F84C064001D5BCB /* Exceptions for "AccessoryTransportSecurity" folder in "AccessoryTransportSecurity" target */,
+			);
+			path = AccessoryTransportSecurity;
+			sourceTree = "<group>";
+		};
+		98F466412F84C2DE001D5BCB /* AccessoryTransportAppExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				98F4664E2F84C2DE001D5BCB /* Exceptions for "AccessoryTransportAppExtension" folder in "AccessoryTransportAppExtension" target */,
+			);
+			path = AccessoryTransportAppExtension;
+			sourceTree = "<group>";
+		};
+		98F466FC2F8507D0001D5BCB /* PushNotificationApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PushNotificationApp;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		986FB4E32EE91517007C0616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986FB4F52EE9152B007C0616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F465EA2F84A2B6001D5BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F465FC2F84C064001D5BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F4663C2F84C2DD001D5BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F466402F84C2DE001D5BCB /* WiFiInfrastructure.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F466F82F8507D0001D5BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		986FB4DD2EE91517007C0616 = {
+			isa = PBXGroup;
+			children = (
+				987D08D32F873EB400C42207 /* demo.gif */,
+				986FB5EA2EEBEA35007C0616 /* README.md */,
+				986FB5382EEA7038007C0616 /* Shared */,
+				986FB4E82EE91517007C0616 /* AccessoryCompanionApp */,
+				986FB4F92EE9152B007C0616 /* MyAccessory */,
+				98F465EE2F84A2B6001D5BCB /* AccessoryDataProvider */,
+				98F466002F84C064001D5BCB /* AccessoryTransportSecurity */,
+				98F466412F84C2DE001D5BCB /* AccessoryTransportAppExtension */,
+				98F466FC2F8507D0001D5BCB /* PushNotificationApp */,
+				98E663D42F81FB5D00F02637 /* Frameworks */,
+				986FB4E72EE91517007C0616 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		986FB4E72EE91517007C0616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				986FB4E62EE91517007C0616 /* AccessoryCompanionApp.app */,
+				986FB4F82EE9152B007C0616 /* MyAccessory.app */,
+				98F465ED2F84A2B6001D5BCB /* AccessoryDataProvider.appex */,
+				98F465FF2F84C064001D5BCB /* AccessoryTransportSecurity.appex */,
+				98F4663F2F84C2DD001D5BCB /* AccessoryTransportAppExtension.appex */,
+				98F466FB2F8507D0001D5BCB /* PushNotificationApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98E663D42F81FB5D00F02637 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98E663D52F81FB5D00F02637 /* WiFiInfrastructure.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		986FB4E52EE91517007C0616 /* AccessoryCompanionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986FB4F12EE91518007C0616 /* Build configuration list for PBXNativeTarget "AccessoryCompanionApp" */;
+			buildPhases = (
+				986FB4E22EE91517007C0616 /* Sources */,
+				986FB4E32EE91517007C0616 /* Frameworks */,
+				986FB4E42EE91517007C0616 /* Resources */,
+				98E663E12F81FB5D00F02637 /* Embed ExtensionKit Extensions */,
+				98F465E82F84A29E001D5BCB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98F465F32F84A2B6001D5BCB /* PBXTargetDependency */,
+				98F466052F84C064001D5BCB /* PBXTargetDependency */,
+				98F466492F84C2DE001D5BCB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				986FB4E82EE91517007C0616 /* AccessoryCompanionApp */,
+				986FB5382EEA7038007C0616 /* Shared */,
+			);
+			name = AccessoryCompanionApp;
+			packageProductDependencies = (
+			);
+			productName = "AccessorySetupKit+WiFiInfrastructure";
+			productReference = 986FB4E62EE91517007C0616 /* AccessoryCompanionApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		986FB4F72EE9152B007C0616 /* MyAccessory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986FB5002EE9152B007C0616 /* Build configuration list for PBXNativeTarget "MyAccessory" */;
+			buildPhases = (
+				986FB4F42EE9152B007C0616 /* Sources */,
+				986FB4F52EE9152B007C0616 /* Frameworks */,
+				986FB4F62EE9152B007C0616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				986FB4F92EE9152B007C0616 /* MyAccessory */,
+			);
+			name = MyAccessory;
+			packageProductDependencies = (
+			);
+			productName = MyAccessory;
+			productReference = 986FB4F82EE9152B007C0616 /* MyAccessory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98F465EC2F84A2B6001D5BCB /* AccessoryDataProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F465F52F84A2B6001D5BCB /* Build configuration list for PBXNativeTarget "AccessoryDataProvider" */;
+			buildPhases = (
+				98F465E92F84A2B6001D5BCB /* Sources */,
+				98F465EA2F84A2B6001D5BCB /* Frameworks */,
+				98F465EB2F84A2B6001D5BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				98F465EE2F84A2B6001D5BCB /* AccessoryDataProvider */,
+			);
+			name = AccessoryDataProvider;
+			packageProductDependencies = (
+			);
+			productName = AccessoryDataProvider;
+			productReference = 98F465ED2F84A2B6001D5BCB /* AccessoryDataProvider.appex */;
+			productType = "com.apple.product-type.extensionkit-extension";
+		};
+		98F465FE2F84C064001D5BCB /* AccessoryTransportSecurity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F466072F84C064001D5BCB /* Build configuration list for PBXNativeTarget "AccessoryTransportSecurity" */;
+			buildPhases = (
+				98F465FB2F84C064001D5BCB /* Sources */,
+				98F465FC2F84C064001D5BCB /* Frameworks */,
+				98F465FD2F84C064001D5BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				98F466002F84C064001D5BCB /* AccessoryTransportSecurity */,
+			);
+			name = AccessoryTransportSecurity;
+			packageProductDependencies = (
+			);
+			productName = AccessoryTransportSecurity;
+			productReference = 98F465FF2F84C064001D5BCB /* AccessoryTransportSecurity.appex */;
+			productType = "com.apple.product-type.extensionkit-extension";
+		};
+		98F4663E2F84C2DD001D5BCB /* AccessoryTransportAppExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F4664D2F84C2DE001D5BCB /* Build configuration list for PBXNativeTarget "AccessoryTransportAppExtension" */;
+			buildPhases = (
+				98F4663B2F84C2DD001D5BCB /* Sources */,
+				98F4663C2F84C2DD001D5BCB /* Frameworks */,
+				98F4663D2F84C2DD001D5BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				98F466412F84C2DE001D5BCB /* AccessoryTransportAppExtension */,
+			);
+			name = AccessoryTransportAppExtension;
+			packageProductDependencies = (
+			);
+			productName = AccessoryTransportAppExtension;
+			productReference = 98F4663F2F84C2DD001D5BCB /* AccessoryTransportAppExtension.appex */;
+			productType = "com.apple.product-type.extensionkit-extension";
+		};
+		98F466FA2F8507D0001D5BCB /* PushNotificationApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F467032F8507D1001D5BCB /* Build configuration list for PBXNativeTarget "PushNotificationApp" */;
+			buildPhases = (
+				98F466F72F8507D0001D5BCB /* Sources */,
+				98F466F82F8507D0001D5BCB /* Frameworks */,
+				98F466F92F8507D0001D5BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				98F466FC2F8507D0001D5BCB /* PushNotificationApp */,
+			);
+			name = PushNotificationApp;
+			packageProductDependencies = (
+			);
+			productName = PushNotification;
+			productReference = 98F466FB2F8507D0001D5BCB /* PushNotificationApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		986FB4DE2EE91517007C0616 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					986FB4E52EE91517007C0616 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					986FB4F72EE9152B007C0616 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					98F465EC2F84A2B6001D5BCB = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					98F465FE2F84C064001D5BCB = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					98F4663E2F84C2DD001D5BCB = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					98F466FA2F8507D0001D5BCB = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = 986FB4E12EE91517007C0616 /* Build configuration list for PBXProject "AccessoryCompanionApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 986FB4DD2EE91517007C0616;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 986FB4E72EE91517007C0616 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				986FB4E52EE91517007C0616 /* AccessoryCompanionApp */,
+				986FB4F72EE9152B007C0616 /* MyAccessory */,
+				98F465EC2F84A2B6001D5BCB /* AccessoryDataProvider */,
+				98F465FE2F84C064001D5BCB /* AccessoryTransportSecurity */,
+				98F4663E2F84C2DD001D5BCB /* AccessoryTransportAppExtension */,
+				98F466FA2F8507D0001D5BCB /* PushNotificationApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		986FB4E42EE91517007C0616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986FB4F62EE9152B007C0616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F465EB2F84A2B6001D5BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F465FD2F84C064001D5BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F4663D2F84C2DD001D5BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F466F92F8507D0001D5BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		986FB4E22EE91517007C0616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986FB4F42EE9152B007C0616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F465E92F84A2B6001D5BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F465FB2F84C064001D5BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F4663B2F84C2DD001D5BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F466F72F8507D0001D5BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98F465F32F84A2B6001D5BCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98F465EC2F84A2B6001D5BCB /* AccessoryDataProvider */;
+			targetProxy = 98F465F22F84A2B6001D5BCB /* PBXContainerItemProxy */;
+		};
+		98F466052F84C064001D5BCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98F465FE2F84C064001D5BCB /* AccessoryTransportSecurity */;
+			targetProxy = 98F466042F84C064001D5BCB /* PBXContainerItemProxy */;
+		};
+		98F466492F84C2DE001D5BCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98F4663E2F84C2DD001D5BCB /* AccessoryTransportAppExtension */;
+			targetProxy = 98F466482F84C2DE001D5BCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		986FB4EF2EE91518007C0616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		986FB4F02EE91518007C0616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		986FB4F22EE91518007C0616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AccessoryCompanionApp/AccessoryCompanionApp-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = AccessoryCompanionApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.AccessorySetupKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		986FB4F32EE91518007C0616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AccessoryCompanionApp/AccessoryCompanionApp-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = AccessoryCompanionApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.AccessorySetupKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		986FB5012EE9152B007C0616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth Please!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.MyAccessory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		986FB5022EE9152B007C0616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth Please!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.MyAccessory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98F465F62F84A2B6001D5BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AccessoryDataProvider/AccessoryDataProvider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AccessoryDataProvider/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AccessoryDataProvider;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.AccessorySetupKitDemo.AccessoryDataProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		98F465F72F84A2B6001D5BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AccessoryDataProvider/AccessoryDataProvider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AccessoryDataProvider/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AccessoryDataProvider;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.AccessorySetupKitDemo.AccessoryDataProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+		98F466082F84C064001D5BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AccessoryTransportSecurity/AccessoryTransportSecurity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AccessoryTransportSecurity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AccessoryTransportSecurity;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.AccessorySetupKitDemo.AccessoryTransportSecurity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		98F466092F84C064001D5BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AccessoryTransportSecurity/AccessoryTransportSecurity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AccessoryTransportSecurity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AccessoryTransportSecurity;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.AccessorySetupKitDemo.AccessoryTransportSecurity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+		98F4664B2F84C2DE001D5BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AccessoryTransportAppExtension/AccessoryTransportAppExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AccessoryTransportAppExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AccessoryTransportAppExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.AccessorySetupKitDemo.AccessoryTransportAppExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98F4664C2F84C2DE001D5BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AccessoryTransportAppExtension/AccessoryTransportAppExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AccessoryTransportAppExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AccessoryTransportAppExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.AccessorySetupKitDemo.AccessoryTransportAppExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98F467042F8507D1001D5BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.AccessorySetupKitDemo.PushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98F467052F8507D1001D5BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.AccessorySetupKitDemo.PushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		986FB4E12EE91517007C0616 /* Build configuration list for PBXProject "AccessoryCompanionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986FB4EF2EE91518007C0616 /* Debug */,
+				986FB4F02EE91518007C0616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986FB4F12EE91518007C0616 /* Build configuration list for PBXNativeTarget "AccessoryCompanionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986FB4F22EE91518007C0616 /* Debug */,
+				986FB4F32EE91518007C0616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986FB5002EE9152B007C0616 /* Build configuration list for PBXNativeTarget "MyAccessory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986FB5012EE9152B007C0616 /* Debug */,
+				986FB5022EE9152B007C0616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F465F52F84A2B6001D5BCB /* Build configuration list for PBXNativeTarget "AccessoryDataProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F465F62F84A2B6001D5BCB /* Debug */,
+				98F465F72F84A2B6001D5BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F466072F84C064001D5BCB /* Build configuration list for PBXNativeTarget "AccessoryTransportSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F466082F84C064001D5BCB /* Debug */,
+				98F466092F84C064001D5BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F4664D2F84C2DE001D5BCB /* Build configuration list for PBXNativeTarget "AccessoryTransportAppExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F4664B2F84C2DE001D5BCB /* Debug */,
+				98F4664C2F84C2DE001D5BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F467032F8507D1001D5BCB /* Build configuration list for PBXNativeTarget "PushNotificationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F467042F8507D1001D5BCB /* Debug */,
+				98F467052F8507D1001D5BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 986FB4DE2EE91517007C0616 /* Project object */;
+}

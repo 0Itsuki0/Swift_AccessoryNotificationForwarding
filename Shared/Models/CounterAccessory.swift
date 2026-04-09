@@ -1,5 +1,5 @@
 //
-//  CounterAccessory.swift
+//  BLEAccessory.swift
 //  AccessorySetupKit+WiFiInfrastructure
 //
 //  Created by Itsuki on 2025/12/12.
@@ -9,7 +9,7 @@ import CoreBluetooth
 import SwiftUI
 
 // A Simple Counter
-class CounterAccessory {
+class BLEAccessory {
     
     static let counterCharacteristicUUID: CBUUID = CBUUID(string: "24F31983-2703-434D-AD32-CC85CC66EBEC")
     static let counterCharacteristic = CBMutableCharacteristic(
@@ -18,6 +18,25 @@ class CounterAccessory {
         value: nil,
         permissions: [.readable, .writeable]
     )
+    
+    static let notificationCharacteristicUUID: CBUUID = CBUUID(string: "D5E4C88B-59EB-4E4B-B751-CF5092C6E99C")
+    
+    static let notificationCharacteristic = CBMutableCharacteristic(
+        type: notificationCharacteristicUUID,
+        properties: [.write, .writeWithoutResponse],
+        value: nil,
+        permissions: [.writeable]
+    )
+    
+    static let keySharingCharacteristicUUID: CBUUID = CBUUID(string: "6690CE7A-0E2D-4933-B51A-D09A115CB957")
+    
+    static let keySharingCharacteristic = CBMutableCharacteristic(
+        type: keySharingCharacteristicUUID,
+        properties: [.write, .writeWithoutResponse],
+        value: nil,
+        permissions: [.writeable]
+    )
+
     
     // for CBAdvertisementDataLocalNameKey
     static let name: String = "Itsuki's Counter"
@@ -34,7 +53,7 @@ class CounterAccessory {
     
     static var service: CBMutableService {
         let service = CBMutableService(type: serviceUUID, primary: true)
-        service.characteristics = [counterCharacteristic]
+        service.characteristics = [counterCharacteristic, notificationCharacteristic, keySharingCharacteristic]
         service.includedServices = []
         return service
     }

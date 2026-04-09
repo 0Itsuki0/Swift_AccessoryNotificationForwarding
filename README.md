@@ -1,20 +1,24 @@
 #  SwiftUI: AccessorySetupKit + BLE
 
+**Forward notifications to BLE accessory from iPhone using Accessory Notifications framework.**
 
-A demo of paring and connecting with BLE accessories using AccessorySetUpKit.
+BLE Accessory Target
+- My Accessory
 
-specifically, this repository includes 
-- a simple app that act as a BLE accessory (peripheral side), and 
-- an app for setting up the accessory and communicating with it using AccessorySetUpKit and Core Bluetooth (Central Side).
+Companion App Target
+- AccessoryCompanionApp 
+- AccessoryDataProvider
+- AccessoryTransportSecurity
+- AccessoryTransportAppExtension
 
-To test out the sample app, get two real devices, one running the BLE accessory app, and another one running the main app.
+An App Example for sending push notification
+- PushNotificationApp
 
 
-For more details on AccessorySetupKit: 
-- [SwiftUI: Pair BLE Accessory in an Easy BUT Secure Way!]()
+For more details, please refer to [Swift/iOS: Receive iOS Notifications From Any App on Bluetooth Accessory]()
 
-
-For more details on Bluetooth Low energy: 
+Other relevant articles: 
+- [SwiftUI: Pair BLE Accessory in an Easy BUT Secure Way!](https://levelup.gitconnected.com/swiftui-pair-ble-accessory-in-an-easy-but-secure-way-a9e88b5e2f07)
 - [SwiftUI: Low Energy Bluetooth (Part1: Peripheral Side)](https://medium.com/@itsuki.enjoy/swiftui-low-energy-bluetooth-part1-peripheral-side-0c772ef478d0)
 - [SwiftUI: Low Energy Bluetooth (Part2: Central Side)](https://medium.com/@itsuki.enjoy/swiftui-low-energy-bluetooth-part2-central-side-1f3148217334)
 
